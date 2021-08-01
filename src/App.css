@@ -1,0 +1,101 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+body {
+    padding:0;
+    margin:0;
+}
+
+.header {
+  padding: 0.1px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.navbar {
+  padding: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.navbar .left {
+  float: left;
+  text-align: center;
+  padding: 0px 10px 10px 0px;
+}
+
+.navbar .right {
+  float: right;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.issues {
+  display: block;
+  text-align: center;
+  background: white;
+  padding: 10px 10px;
+}
+
+.list {
+  max-width: 90%;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+button{
+  padding: 10px 10px;
+  font-size: 13px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 6px 0px 0px 6px;
+  display: inline-block;
+}
+
+label{
+  padding: 10px 10px;
+  font-size: 13px;
+  margin: 4px 8px 4px 0px;
+  border: 1px solid #ccc;
+  border-radius: 0px 6px 6px 0px;
+  display: inline-block;
+}
+
+.issue {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.issue h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
